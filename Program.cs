@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp2 
 {
@@ -20,6 +20,10 @@ namespace ConsoleApp2
             else if (num1 < num2)
             {
                 Console.WriteLine("you lose");
+            }
+            else if (num1 == num2)
+            {
+                Console.WriteLine("its a tie");
             }
 
             Console.ReadKey();
